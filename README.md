@@ -1,3 +1,3 @@
 # The Portfolio Project
 
-[sneaky](images/sneaking.gif)
+[!Sneaky!](images/sneaking.gif "sneak")
