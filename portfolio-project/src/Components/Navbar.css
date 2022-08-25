@@ -1,0 +1,29 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    background-image: url("../images/sneaking.gif");
+  }
+  
+  .navBar .homeButton {
+    color: #f767df;
+    text-decoration: none;
+  }
+  
+  .logo {
+    text-decoration: none;
+  }
+  
+  .navBar .new {
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid #9430bb;
+    border-radius: 4.20px;
+    margin-top: 27px;
+    color: #fe00d8;
+  }
+
+  .new {
+    justify-content: center;
+    text-align: center;
+  }
