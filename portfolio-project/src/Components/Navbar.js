@@ -6,22 +6,22 @@ class Navbar extends Component {
     return (
       <div className="navbar">
         <Link to="/">
-          <h1 className="logo">Hop Off</h1>
+          <button className="logo">Hop Off</button>
         </Link>
         <Link to="/Game">
-          <h1 className="game">Game</h1>
+          <button className="game">Game</button>
         </Link>
         <Link to="/Leaderboard">
-          <button className="new">Leaderboard</button>
+          <button className="leaderboard">Leaderboard</button>
         </Link>
         <Link to="/Login">
-          <button className="new">Login</button>
+          <button className="login">Login</button>
         </Link>
         <Link to="/Signup">
-          <button className="new">Signup</button>
+          <button className="signup">Signup</button>
         </Link>
         <Link to="/FAQ">
-          <button className="new">FAQ</button>
+          <button className="faq">FAQ</button>
         </Link>
       </div>
     );

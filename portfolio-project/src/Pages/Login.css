@@ -5,3 +5,8 @@ h1 {
     font-size: 20px;
     font-family: Comic-Sans;
 }
+
+#signInDiv {
+    justify-content: center;
+    text-align: center;
+}

@@ -9,6 +9,7 @@ import Signup from "./Pages/Signup"
 import FAQ from "./Pages/FAQ"
 
 function App() {
+
   return (
     <div className="App">
       <h1>Hi</h1>
