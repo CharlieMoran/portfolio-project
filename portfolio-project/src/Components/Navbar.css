@@ -78,7 +78,7 @@ section {
 .navbar {
     display: grid;
     grid-template-columns: 2fr 4fr;
-    background-image: url("../images/sneaking.gif");
+    background-image: url("../images/hop-off.png");
   }
   
   .navBar .homeButton {
@@ -88,6 +88,7 @@ section {
   
   .logo {
     text-decoration: none;
+    size: 25px;
   }
   
   .navBar{

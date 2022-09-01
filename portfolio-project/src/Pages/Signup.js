@@ -1,6 +1,7 @@
 import "./Signup.css";
 import { useEffect, useState } from "react";
 import jwt_decode from "jwt-decode";
+import NewUser from "../Components/NewUser";
 
 function Signup() {
   const [user, setUser] = useState({});
@@ -8,12 +9,12 @@ function Signup() {
   function handleCallBackResponse(response){
     var userObject = jwt_decode(response.credential);
     setUser(userObject);
-    document.getElementById("signInDiv").hidden = true;
+    document.getElementById("signUp").hidden = true;
   }
 
   function handleSignOut(event) {
     setUser({});
-    document.getElementById("signInDiv").hidden = false;
+    document.getElementById("signUp").hidden = false;
   }
 
   useEffect(()=> {
@@ -24,29 +25,20 @@ function Signup() {
   });
 
     google.accounts.id.renderButton(
-      document.getElementById("signInDiv"),
+      document.getElementById("signUp"),
       {theme: "outline", size: "large"}
     )
   }, []);
 
-  google.accounts.id.prompt();
-
   return (
   <div>
   <h1>Join us!</h1>
-  <div id="signInDiv"></div>
+  <NewUser />
+  <section id="center">
+  <div id="signUp"></div>
+  </section>
+  
 
-  { 
-    Object.keys(user).length !== 0 &&
-    <button onClick={ (e) => handleSignOut}>Sign Out</button>
-  }
-
-  { user && 
-    <div>
-      <img src = {user.picture} alt="user"></img>
-      <h3>{user.name}</h3>
-    </div>
-  }
   </div>
   );
 }

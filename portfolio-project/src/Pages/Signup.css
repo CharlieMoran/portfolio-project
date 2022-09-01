@@ -6,7 +6,12 @@ h1 {
     font-family: Comic-Sans;
 }
 
-#signInDiv {
+.signInDiv {
+    justify-content: center;
+    text-align: center;
+}
+
+#center {
     justify-content: center;
     text-align: center;
 }
