@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hi</h1>
+      <h1>Hop Off by Charlie Moran</h1>
       <Nav />
       <main>
         <Routes>

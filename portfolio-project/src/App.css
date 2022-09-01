@@ -1,5 +1,10 @@
+* {
+  background-image: url(./images/bg.gif);
+}
+
 .App {
   text-align: center;
+  color:white;
 }
 
 .App-logo {
