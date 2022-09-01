@@ -1,13 +1,15 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css"
 import Logo from "../images/hop-off.png"
 
 class Navbar extends Component {
+  
   render() {
     return (
       <div className="navbar">
         <Link to="/">
-          <button className="logo"><img src={Logo} width="30" height="12"/></button>
+          <button className="logo"><img src={Logo} width="50px" height="25px"/></button>
         </Link>
         <Link to="/Game">
           <button className="game">Game</button>

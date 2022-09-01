@@ -55,30 +55,29 @@ section {
   height: 100vh;
 }
 
-#game {
+.game {
   background-color: #ddd;
 }
 
-#leaderboard {
+.leaderboard {
   background-color: #aaa;
 }
 
-#login {
+.login {
   background-color: #888;
 }
 
-#signup {
+.signup {
   background-color: #666;
 }
 
-#faq {
+.faq {
   background-color: #666;
 }
 
 .navbar {
     display: grid;
-    grid-template-columns: 2fr 4fr;
-    background-image: url("../images/hop-off.png");
+    grid-template-columns: 2fr 2fr;
   }
   
   .navBar .homeButton {
@@ -88,13 +87,12 @@ section {
   
   .logo {
     text-decoration: none;
-    size: 25px;
   }
   
   .navBar{
     height: 40px;
     width: 150px;
-    background-color: transparent;
+    background-color: pink;
     border: 1px solid #9430bb;
     border-radius: 4.20px;
     margin-top: 27px;
