@@ -9,7 +9,7 @@ class Navbar extends Component {
     return (
       <div className="navbar">
         <Link to="/">
-          <button className="logo"><img src={Logo} width="50px" height="25px"/></button>
+          <button className="logo"><img src={Logo} width="50px" height="20px"/></button>
         </Link>
         <Link to="/Game">
           <button className="game">Game</button>

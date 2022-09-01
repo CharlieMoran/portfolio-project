@@ -1,8 +1,12 @@
 import "./Leaderboard.css";
+import LB from "../images/placeholderlb.jpeg"
 
 function Leaderboard() {
 
-  return (<h1>Who's the big dog?</h1>
+  return (<section>
+  <h1 className="leaderboard">Who's the big dog?</h1>
+  <img src={LB}/>
+  </section>
   );
 }
 

@@ -33,7 +33,7 @@ function Login() {
   google.accounts.id.prompt();
 
   return (
-  <div>
+  <div className="login">
   <h1>Have an account?</h1>
   <CreateLogin />
   <div id="signInDiv"></div>

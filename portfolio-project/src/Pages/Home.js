@@ -2,7 +2,9 @@ import "./Home.css";
 
 function Home() {
 
-  return (<h1>Hop Off is a Game</h1>
+  return (<section>
+  <h1 className="home">Hop Off is a Game</h1>
+  </section>
   );
 }
 

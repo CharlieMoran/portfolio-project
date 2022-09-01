@@ -31,7 +31,7 @@ function Signup() {
   }, []);
 
   return (
-  <div>
+  <div className="signup">
   <h1>Join us!</h1>
   <NewUser />
   <section id="center">

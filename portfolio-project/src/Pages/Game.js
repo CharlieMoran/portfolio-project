@@ -2,7 +2,9 @@ import "./Game.css";
 
 function Game() {
 
-  return (<h1>Game go brrrrrr</h1>
+  return (<section>
+  <h1 className="game">Game go brrrrrr</h1>
+  </section>
   );
 }
 

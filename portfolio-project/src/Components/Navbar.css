@@ -30,10 +30,11 @@
 }
 
 button {
-  background: none;
+  background: pink;
   box-shadow: none;
   border: none;
   cursor: pointer;
+  text-size-adjust: auto;
 }
 
 button:focus,
@@ -57,27 +58,32 @@ section {
 
 .game {
   background-color: #ddd;
+  font-size: 20px;
 }
 
 .leaderboard {
   background-color: #aaa;
+  font-size: 20px;
 }
 
 .login {
   background-color: #888;
+  font-size: 20px;
 }
 
 .signup {
   background-color: #666;
+  font-size: 20px;
 }
 
 .faq {
   background-color: #666;
+  font-size: 20px;
 }
 
-.navbar {
+.navBar {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 3fr 2fr;
   }
   
   .navBar .homeButton {
@@ -90,7 +96,7 @@ section {
   }
   
   .navBar{
-    height: 40px;
+    height: 50px;
     width: 150px;
     background-color: pink;
     border: 1px solid #9430bb;
