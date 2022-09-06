@@ -33,9 +33,9 @@ function Signup() {
   return (
   <div className="signup">
   <h1>Join us!</h1>
+  <div id="signUp">button</div>
   <NewUser />
   <section id="center">
-  <div id="signUp"></div>
   </section>
   
 

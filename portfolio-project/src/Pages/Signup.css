@@ -21,6 +21,25 @@ h1 {
     color:white;
 }
 
+#signUp{
+    width: 100%;
+    text-align: center;
+}
+  
+#signUp > div{
+    margin: 0 auto;
+}
+
 section {
     height: 100vh;
   }
+
+#username {
+    background-color: white;
+    color: black;
+}
+
+#password {
+    background-color: white;
+    color: black;
+}

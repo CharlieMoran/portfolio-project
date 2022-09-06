@@ -29,14 +29,23 @@ function Login() {
       {theme: "outline", size: "large"}
     )
   }, []);
+
+  function onSignIn(googleUser) {
+    var profile = googleUser.getBasicProfile();
+    console.log('ID: ' + profile.getId()); 
+    console.log('Name: ' + profile.getName());
+    console.log('Image URL: ' + profile.getImageUrl());
+    console.log('Email: ' + profile.getEmail());
+    var id_token = googleUser.getAuthResponse().id_token;
+        console.log("ID Token: " + id_token);
+  }
   
   google.accounts.id.prompt();
 
   return (
   <div className="login">
   <h1>Have an account?</h1>
-  <CreateLogin />
-  <div id="signInDiv"></div>
+  <div id="signInDiv" data-onsuccess="onSignIn">button</div>
   { 
     Object.keys(user).length !== 0 &&
     <button onClick={ (e) => handleSignOut}>Sign Out</button>
@@ -48,6 +57,7 @@ function Login() {
       <h3>{user.name}</h3>
     </div>
   }
+  <CreateLogin />
   </div>
   );
 }
