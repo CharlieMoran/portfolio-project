@@ -52,7 +52,7 @@ preload.prototype = {
     game.load.image('enter', 'assets/sprites/press-enter-text.png');
     game.load.image('credits', 'assets/sprites/credits-text.png');
     game.load.image('instructions', 'assets/sprites/instructions.png');
-    game.load.image('game-over', 'assets/sprites/game-over.png');
+    game.load.image('game-over', 'assets/sprites/game-over.gif');
     // environment
     game.load.image('bg-1', 'assets/environment/bg-1.png');
     game.load.image("bg-2", 'assets/environment/bg-2.png');
