@@ -1,5 +1,8 @@
 * {
   background-image: url(./images/bg.gif);
+  cursor: url(https://ani.cursors-4u.net/cursors/cur-12/cur1148.ani), 
+          url(https://ani.cursors-4u.net/cursors/cur-12/cur1148.png), 
+          auto !important;
 }
 
 .App {
@@ -41,3 +44,5 @@
     transform: rotate(360deg);
   }
 }
+
+
