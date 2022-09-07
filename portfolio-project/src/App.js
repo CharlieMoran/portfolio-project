@@ -6,7 +6,7 @@ import Game from "./Pages/Game"
 import Leaderboard from "./Pages/Leaderboard"
 import Login from "./Pages/Login"
 import Signup from "./Pages/Signup"
-import FAQ from "./Pages/FAQ"
+import FAQpage from "./Pages/FAQ"
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
           <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/faq" element={<FAQ />} />
+          <Route path="/faq" element={<FAQpage />} />
         </Routes>
       </main>
     </div>
