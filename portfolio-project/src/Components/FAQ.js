@@ -26,6 +26,7 @@ class FAQ extends Component {
         <div>
             <p id="comment">OranageLover: Why do you like bananas so much?</p>
             <p id="response">Because bananas are love, bananas are life!</p>
+            <br />
           <form id="form" action="javascript:void('');" className="add_comment">
             <label>Name<input id="name" type="string" name="name" /></label>
             <br />
