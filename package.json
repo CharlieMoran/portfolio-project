@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "create-react-app": "^5.0.1",
-    "phaser": "^3.55.2"
-  }
-}
