@@ -7,6 +7,7 @@ import Leaderboard from "./Pages/Leaderboard"
 import Login from "./Pages/Login"
 import Signup from "./Pages/Signup"
 import FAQpage from "./Pages/FAQ"
+import Music from "./Components/Music"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <h1>Hop Off by Charlie Moran</h1>
       <Nav />
+      <Music />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />

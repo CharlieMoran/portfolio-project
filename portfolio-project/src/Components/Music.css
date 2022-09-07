@@ -1,0 +1,7 @@
+#pause {
+    visibility: hidden;
+}
+
+#play {
+    visibility: visible;
+}
